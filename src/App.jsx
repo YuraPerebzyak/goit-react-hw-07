@@ -3,8 +3,8 @@ import ContactList from "./components/ContactList/ContactList";
 import SearchBox from "./components/SearchBox/SearchBox";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { useEffect } from "react";
-import { fetchContacts } from "./redux/contacts/contactsOps";
-import { selectLoading, selectError } from "./redux/contacts/contactSlice";
+import { fetchContacts } from "./redux/contactsOps";
+import { selectLoading, selectError } from "./redux/contactSlice";
 
 import "./App.css";
 
